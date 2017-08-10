@@ -1,0 +1,13 @@
+.contenedor-header {
+  background-color: #0288d1;
+  background-size: 49% auto;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+
+.contenedor-image {
+  background-image: url(../img/background.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
