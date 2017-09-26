@@ -22,3 +22,23 @@ body {
 .slogan {
   margin-top: 60px;
 }
+
+/*--Clase para dar estilo a redes sociales -----*/
+.fa {
+  padding: 15px;
+  font-size: 25px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook, .fa-twitter, .fa-youtube, .fa-instagram, .fa-pinterest {
+  background: #66bb6a;
+  color: white;
+}
+/*------end class------*/
