@@ -20,7 +20,8 @@ body {
 }
 
 .slogan {
-  margin-top: 60px;
+  font-size: 20px;
+  color: #ffffff;
 }
 
 /*--Clase para dar estilo a redes sociales -----*/
@@ -41,9 +42,29 @@ body {
   background: #66bb6a;
   color: white;
 }
-/*------end class------*/
 
+/* ------ clase para las galeria */
 .galeria-viajes {
   box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.5);
   /*box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);*/
+}
+
+/* ------ clases para el blog ------ */
+.tittle {
+
+}
+
+.img-blog {
+  float: left;
+}
+
+
+/* ----- Modo adaptativo ----- */
+@media (max-width: 850px) {
+  .btn {
+    font-display: none;
+    width: 20px;
+    height: 26px;
+  }
+
 }
