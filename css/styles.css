@@ -20,8 +20,10 @@ body {
 }
 
 .slogan {
-  font-size: 20px;
+  font-size: 28px;
   color: #ffffff;
+  float: left;
+  padding-top: 30px;
 }
 
 /*--Clase para dar estilo a redes sociales -----*/
@@ -44,6 +46,10 @@ body {
 }
 
 /* ------ clase para las galeria */
+.galeria {
+    padding: 0 5px 0 0;
+}
+
 .galeria-viajes {
   box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.5);
   /*box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);*/
@@ -61,6 +67,10 @@ body {
 
 /* ----- Modo adaptativo ----- */
 @media (max-width: 850px) {
+  .slogan {
+    font-size: 20px;
+  }
+
   .btn {
     font-display: none;
     width: 20px;
